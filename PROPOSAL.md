@@ -54,7 +54,6 @@ Anne is a 24 year old pharmacist that loves her entertainment.
 
 - Favourite movie: Memoirs of a Geisha
 - Loves jazz
-- Does a little Yoga and wears as much LuLu Lemon as possible
 - She loves gadgets ; has a smart phone and uses it regularly
 - Interested in games, but doesn't play them very often.
 
