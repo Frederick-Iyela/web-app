@@ -48,7 +48,7 @@ As with all games, this app is for those looking for a quick pick-up-and-play ga
 
 ### Anne
 
-![Anne](../anne.jpg)
+![Anne](/anne.jpg)
 
 Anne is a 24 year old pharmacist that loves her entertainment.
 
