@@ -6,7 +6,10 @@ As the player's character moves across the level, the only form of control the p
 
 ### Features
 
-- 
+- Player's character can jump over or slide underneath obstacles.
+- Scores will be kept as to how long the player survives the stage.
+- The number of attempts to complete the stage may also be recorded.
+- Top three scores or three lowest number of attempts will be recorded, so the player can attempt to break his or her personal records.
 
 ## Learning goals
 
@@ -21,16 +24,21 @@ This app will give me an basic understanding of how some games are developed and
 - Javascript.
 - HTML5.
 - CSS.
+- Akihabara Game Engine.
 - Offline and AppCache.
 
 
 ## Similar applications
 
-- 	
+- [The Impossible Game](http://flukedude.com/theimpossiblegame/)
+	
+	The Impossible Game is a game where the user is in control of a orange square that tries to avoid obstacles by jumping over or on the obstacles, depending on the type of 	obstacle.
+	The game is available on iPhone, Android Market, Windows Phone 7, Xbox 360 and PlayStation 3.
+	
 	**Differences**
 	
+	The major difference between this game and mine will be the ability of the players character to avoid obstacles by ducking or sliding underneath them.
 	
-
 
 ## User research
 
@@ -39,6 +47,8 @@ Abunai! is primarily targeted at both casual and hardcore gamers with access to 
 As with all games, this app is for those looking for a quick pick-up-and-play game that is simple to understand and fun - hopefully a bit frustrating too.
 
 ### Anne
+
+![Anne](../anne.jpg)
 
 Anne is a 24 year old pharmacist that loves her entertainment.
 
@@ -55,4 +65,4 @@ Anne is a 24 year old pharmacist that loves her entertainment.
 
 #### Demotivations
 
-- 
+- Anne gives up a bit easily, when games are challenging. 
