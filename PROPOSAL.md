@@ -65,4 +65,4 @@ Anne is a 24 year old pharmacist that loves her entertainment.
 
 #### Demotivations
 
-- Anne gives up a bit easily, when games are challenging. 
+- Anne gives up a easily, especially when games are challenging. 
