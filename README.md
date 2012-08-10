@@ -18,6 +18,21 @@ Frederick Iyela: <mailto:fbiyela@gmail.com>
 
 1. Go to the Scirra website and download the [Construct 2](http://http://www.scirra.com/construct2) game engine.
 
-2. 
+2. Clone the repository.
+
+3. Open the 'Projects' folder, and then open the 'projects.caproj' file. in Construct 2.
+
+####How to Play Locally
+
+1. Clone the repository.
+
+2. Import the userscores.sql table.
+
+3. Place folders in respective MAMP OR WAMP locations.
+
+4. Open index.php file.
 
 ####Link to PHPFog
+
+- [Abunai!](http://abunai-webapp.phpfogapp.com/)
+Please note that the site is not functional due to problems with the database related to the game.
