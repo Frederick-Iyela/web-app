@@ -35,4 +35,4 @@ Frederick Iyela: <mailto:fbiyela@gmail.com>
 ####Link to PHPFog
 
 - [Abunai!](http://abunai-webapp.phpfogapp.com/)
-(Please note that the site is not functional due to problems with the database related to the game.)
+(Please note that the site is functional but the leaderboard does not refresh.)
