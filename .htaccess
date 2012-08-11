@@ -1,0 +1,12 @@
+# The .htaccess file is a configuration file for the Apache web server
+# It allows us to change the web servers settings, apply caching,
+#  specify error files, password protect directories, etc.
+
+ErrorDocument 404 /iyel0001/404.html
+ErrorDocument 403 /iyel0001/403.html
+
+# Setup environment variables for connecting to the database
+SetEnv MYSQL_USERNAME root
+SetEnv MYSQL_PASSWORD
+SetEnv MYSQL_DB_HOST=localhost
+SetEnv MYSQL_DB_NAME=iyel0001
