@@ -6,7 +6,7 @@ ErrorDocument 404 /iyel0001/404.html
 ErrorDocument 403 /iyel0001/403.html
 
 # Setup environment variables for connecting to the database
-SetEnv MYSQL_USERNAME root
+SetEnv MYSQL_USERNAME fbiyela-28-48542
 SetEnv MYSQL_PASSWORD
-SetEnv MYSQL_DB_HOST=localhost
-SetEnv MYSQL_DB_NAME=iyel0001
+SetEnv MYSQL_DB_HOST=mysql-shared-02.phpfog.com
+SetEnv MYSQL_DB_NAME=abunai_webapp_phpfogapp_com
