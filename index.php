@@ -23,14 +23,14 @@
 			<h1>Abunai!</h1>
 			<iframe src="projects/index.html" width="1000" height="700"></iframe>
 		</div>
-		<div id="score">
-			<fieldset id="record"><legend>LeaderBoard</legend>
+		<div>
+			<fieldset><legend>LeaderBoard</legend>
 						<dl>
-							<dt id="name">Name</dt>
-							<dt id="time">Score</dt>
+							<dt>Name</dt>
+							<dt>Score</dt>
 							<?php foreach ($results as $user_score) : ?>
-								<dd id="data-1"><?php echo $user_score['name']; ?></dd>
-								<dd id="data-2"><?php echo $user_score['score']; ?></dd>
+								<dd><?php echo $user_score['name']; ?></dd>
+								<dd><?php echo $user_score['score']; ?></dd>
 							<?php endforeach; ?>
 						</dl>
 			</fieldset>
