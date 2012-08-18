@@ -16,7 +16,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Abunai! (Watch Out!)</title>
-		<link href="general.css" rel="stylesheet">
+		<link href="css/general.css" rel="stylesheet">
 	</head>
 	
 	<body>
