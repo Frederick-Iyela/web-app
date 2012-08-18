@@ -25,14 +25,23 @@
 		</div>
 		<div>
 			<fieldset><legend>LeaderBoard</legend>
-						<dl>
+				<?php foreach ($results as $user_score) : ?>
+					<div class="names">
+						<?php echo $user_score['name']; ?>
+					</div>
+					
+					<div class="scores">
+						<?php echo $user_score['score']; ?>
+					</div>
+				<?php endforeach; ?>
+						<?php /*?><dl>
 							<dt>Name</dt>
 							<dt>Score</dt>
 							<?php foreach ($results as $user_score) : ?>
 								<dd><?php echo $user_score['name']; ?></dd>
 								<dd><?php echo $user_score['score']; ?></dd>
 							<?php endforeach; ?>
-						</dl>
+						</dl><?php */?>
 			</fieldset>
 		</div>
 	</body>
