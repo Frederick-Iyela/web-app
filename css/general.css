@@ -7,11 +7,13 @@ html{
 
 body{
 	margin: 0 auto;
+	width: 64.5em;
 }
 
 .wrapper{
-	width: 64.5em;
+	color: #FFF;
 }
+
 
 .names{
 	margin: 0.5em 1em 0 0;
