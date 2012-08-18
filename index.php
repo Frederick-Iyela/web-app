@@ -23,27 +23,29 @@
 		<div id="wrapper">
 			<h1>Abunai!</h1>
 			<iframe src="projects/index.html" width="1000" height="700"></iframe>
+			
+			<div>
+				<fieldset><legend>LeaderBoard</legend>
+					<?php foreach ($results as $user_score) : ?>
+						<div class="names">
+							<?php echo $user_score['name']; ?>
+						</div>
+						
+						<div class="scores">
+							<?php echo $user_score['score']; ?>
+						</div>
+					<?php endforeach; ?>
+							<?php /*?><dl>
+								<dt>Name</dt>
+								<dt>Score</dt>
+								<?php foreach ($results as $user_score) : ?>
+									<dd><?php echo $user_score['name']; ?></dd>
+									<dd><?php echo $user_score['score']; ?></dd>
+								<?php endforeach; ?>
+							</dl><?php */?>
+				</fieldset>
+			</div>
 		</div>
-		<div>
-			<fieldset><legend>LeaderBoard</legend>
-				<?php foreach ($results as $user_score) : ?>
-					<div class="names">
-						<?php echo $user_score['name']; ?>
-					</div>
-					
-					<div class="scores">
-						<?php echo $user_score['score']; ?>
-					</div>
-				<?php endforeach; ?>
-						<?php /*?><dl>
-							<dt>Name</dt>
-							<dt>Score</dt>
-							<?php foreach ($results as $user_score) : ?>
-								<dd><?php echo $user_score['name']; ?></dd>
-								<dd><?php echo $user_score['score']; ?></dd>
-							<?php endforeach; ?>
-						</dl><?php */?>
-			</fieldset>
-		</div>
+		
 	</body>
 </html>
