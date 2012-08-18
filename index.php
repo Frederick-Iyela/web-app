@@ -28,11 +28,11 @@
 				<fieldset><legend>LeaderBoard</legend>
 					<?php foreach ($results as $user_score) : ?>
 						<div class="names">
-							<?php echo $user_score['name']; ?>
+							<p><?php echo $user_score['name']; ?>  <?php echo $user_score['score']; ?></p>
 						</div>
 						
 						<div class="scores">
-							<?php echo $user_score['score']; ?>
+							
 						</div>
 					<?php endforeach; ?>
 							<?php /*?><dl>
