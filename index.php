@@ -31,9 +31,6 @@
 							<p><?php echo $user_score['name']; ?>  <?php echo $user_score['score']; ?></p>
 						</div>
 						
-						<div class="scores">
-							
-						</div>
 					<?php endforeach; ?>
 							<?php /*?><dl>
 								<dt>Name</dt>
